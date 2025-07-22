@@ -1,15 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    float score = 90.5;  
-    printf("Score = %.1f\n", score);  
-    return 0;
-}
-#include <stdio.h>
+  
+    float score_f = 90.5;
+    printf("Score (float) = %.1f\n", score_f);  
 
-int main() {
-    int score = 90.5;  
-    printf("Score = %d\n", score);  
+    int score_i = (int)score_f;  
+    printf("Score (int) = %d\n", score_i);  
+
     return 0;
 }
 
