@@ -1,15 +1,17 @@
-#include <stdio.h>  
+#include <stdio.h>  // รวมฟังก์ชัน printf และอื่น ๆ จากมาตรฐาน C
 
 int main() {
-    char nameInitial[] = "Apisit";   
-    int age = 21 ;
-    float weight = 80.0;
-    char gender[] = "male";
+    char nameInitial[] = "Apisit";  // ใช้ char เก็บตัวอักษร 
+    int age = 21 ;                  // ใช้ int สำหรับจำนวนเต็ม เช่น อายุ
+    float weight = 80.0;            // ใช้ float สำหรับเลขทศนิยม
+    char gender[] = "male";         // ใช้ array of char สำหรับข้อความ (string)
 
+    // แสดงผลค่าทั้งหมด
     printf("nameInitial = %c\n", nameInitial);  
     printf("age = %d\n", age);
     printf("weight = %.1f\n", weight);
     printf("gender = %s\n", gender);
 
-    return 0;
+    return 0;    // ส่งค่ากลับ 0 แสดงว่าโปรแกรมจบการทำงานปกติ
 }
+
